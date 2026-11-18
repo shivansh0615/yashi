@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5b5ce"><meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="a little universe, made with love.">
+  <title>for yashu, always.</title>
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="assets/gsap.min.js"></script><script defer src="assets/ScrollTrigger.min.js"></script>
+  <script defer src="app.js"></script><script type="module" src="universe.js"></script>
+</head>
+<body class="locked">
+<div id="universe" aria-hidden="true"><div class="moon-fallback"></div></div>
+<div class="gate" id="gate">
+  <header class="gate-header"><span class="wordmark">ansh & yashu<span class="small-heart"><svg class="heart-icon" viewBox="0 0 32 30" aria-hidden="true"><path d="M16 27C11 22 2 16 2 9A7 7 0 0 1 16 7A7 7 0 0 1 30 9C30 16 21 22 16 27Z" fill="none" stroke="currentColor" stroke-width="2.5"/></svg></span></span><span>a little secret, just for you.</span></header>
+  <div class="gate-layout">
+    <div class="gate-copy"><h1>hey,<br>yashu.</h1><p>happy princess day, cutu.<br>i made you a little universe of us.</p>
+      <form id="unlock-form"><label for="pass">the day our story started?</label><div class="pass-row"><input id="pass" name="pass" type="password" inputmode="numeric" autocomplete="off" maxlength="8" placeholder="DDMMYYYY" aria-describedby="pass-note" required><button type="submit" aria-label="Unlock our story">let me in <span aria-hidden="true">↗</span></button></div><p id="pass-note" aria-live="polite">you know this one, madam.</p></form>
+    </div>
+    <div class="gate-art"><figure class="gate-photo"><img src="assets/p3-2.jpg" width="1050" height="1400" alt="Ansh and Yashu smiling at each other at night"><figcaption>my favourite view. always.</figcaption></figure><span class="gate-note handwriting">ps. yes, i made<br>the first move.</span><span class="orbit-word">you + me + a little moon magic</span></div>
+  </div><div class="gate-bottom"><span>five years. a million little things.</span><span>made by your personal vlogger.</span></div>
+  <noscript><p class="noscript">Please enable JavaScript to open your surprise.</p></noscript>
+</div>
+<main id="story" hidden inert>
+  <nav class="nav" aria-label="Our story"><a class="wordmark" href="#home">a little us. <span><svg class="heart-icon" viewBox="0 0 32 30" aria-hidden="true"><path d="M16 27C11 22 2 16 2 9A7 7 0 0 1 16 7A7 7 0 0 1 30 9C30 16 21 22 16 27Z" fill="none" stroke="currentColor" stroke-width="2.5"/></svg></span></a><div><a href="#beginning">our story</a><a href="#little-things">little things</a><a href="#letter">a letter</a></div><button id="motion-toggle" type="button" aria-pressed="false">motion on</button></nav>
+  <section class="hero" id="home">
+    <div class="hero-top"><h1 tabindex="-1">yashu,<br>my whole moon.</h1><p>five years of loving you.<br>still my favourite thing to do.</p></div>
+    <figure class="hero-photo"><img src="assets/p3-2.jpg" width="1050" height="1400" alt="Yashu and Ansh looking at one another beneath the evening lights"><figcaption>the way i look at you says enough, no?</figcaption></figure>
+    <p class="hero-side handwriting">for the girl who makes<br>me look at the moon<br>after every call.</p><div class="hero-bottom"><span>happy princess day, cutu.</span><a href="#beginning">let’s rewind <span aria-hidden="true">↓</span></a></div>
+  </section>
+  <section class="beginning section-pad" id="beginning">
+    <div class="section-intro"><h2>look what<br>we started.</h2><p>we knew each other since childhood. then came a wedding, a first move by yours truly, and suddenly... you became my favourite person.</p></div>
+    <div class="timeline-layout">
+      <div class="timeline-picture"><img id="timeline-img" src="assets/milestone-1.jpg" width="413" height="560" alt="Ansh and Yashu at the wedding where their story began"><video id="timeline-video" hidden muted loop playsinline controls preload="none" poster="assets/first-date-poster.png" aria-label="Our first date in Saket"><source src="assets/first-date.mp4" type="video/mp4"></video><div class="timeline-picture-note handwriting" id="timeline-note">that wedding. that beginning.</div><span class="timeline-heart" aria-hidden="true"><svg class="heart-icon" viewBox="0 0 32 30" aria-hidden="true"><path d="M16 27C11 22 2 16 2 9A7 7 0 0 1 16 7A7 7 0 0 1 30 9C30 16 21 22 16 27Z" fill="none" stroke="currentColor" stroke-width="2.5"/></svg></span></div>
+      <div class="timeline-entries">
+        <article data-picture="milestone-1.jpg" data-note="that wedding. that beginning."><time datetime="2021-07-09">9 july 2021</time><h3>that wedding.</h3><p>childhood se jaante the ek dusre ko, but this time something was different. i made the first move. best decision, obviously.</p></article>
+        <article data-picture="milestone-2.jpg" data-note="orion mall, just us."><time datetime="2022-01-31">31 january 2022</time><h3>orion mall, us.</h3><p>gorakhpur. finally meeting you again, and getting another little memory that i still get to keep.</p></article>
+        <article data-picture="milestone-3.jpg" data-note="delhi happened. so did this."><time datetime="2022-07-31">31 july 2022</time><h3>delhi happened.</h3><p>kashmere gate metro. who knew a metro station could become a part of our love story huhhh.</p></article>
+        <article data-picture="first-date.mp4" data-note="saket. our first date."><time datetime="2022-11-06">6 november 2022</time><h3>our first date.</h3><p>saket. you and me. the start of so many more dates, mirror selfies, and finding excuses to spend a little longer together.</p></article>
+        <article data-picture="milestone-5.jpg" data-note="back where we belong."><time datetime="2023-12-09">9 december 2023</time><h3>back to you.</h3><p>we had our time apart. then we met again. and somehow, coming back to you felt like coming home.</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="little-things" id="little-things">
+    <div class="little-heading section-pad"><h2>our kind<br>of romance.</h2><p>nothing too fancy. just you, me, and probably something to eat.</p></div>
+    <div class="memories-wrap" data-scroll-scene="our-little-things"><div class="memories-stage"><div class="memories-track">
+      <figure class="memory memory-wide"><img src="assets/p4-6.jpg" width="960" height="1280" loading="lazy" alt="Ansh and Yashu outside a leafy café"><figcaption><h3>café dates.</h3><p>you find the aesthetic café. i find a reason to keep looking at you.</p></figcaption></figure>
+      <figure class="memory"><img src="assets/p2-3.jpg" width="480" height="854" loading="lazy" alt="A blurry happy selfie together on a night-time scooty ride"><figcaption><h3>one more ride?</h3><p>scooty rides, long walks, and taking the longer way just because you’re with me.</p></figcaption></figure>
+      <figure class="memory memory-wide"><img src="assets/p2-1.jpg" width="1280" height="720" loading="lazy" alt="A mirror selfie together at a café"><figcaption><h3>momos & more.</h3><p>sector 31 food market. momo dates. maggi, waffles, nutties. your kind of happiness.</p></figcaption></figure>
+      <figure class="memory"><img src="assets/p4-7.jpg" width="1280" height="720" loading="lazy" alt="Ansh and Yashu holding hands"><figcaption><h3>this. always.</h3><p>some days i don’t need a big plan. i just need your hand in mine.</p></figcaption></figure>
+    </div><span class="gallery-count" aria-live="off">a few of our favourite things.</span></div></div>
+  </section>
+  <section class="moon-chapter section-pad" id="moon">
+    <div><h2>“go see<br>the moon.”</h2><p>every time you tell me to look at it, i get one more reason to think about you. as if i needed help with that.</p><button id="moon-button" type="button">okay madam, looking.</button><p class="moon-reply handwriting" id="moon-reply" aria-live="polite"></p></div>
+    <div class="moon-space"><span class="moon-caption handwriting">same moon.<br>my favourite girl.</span></div>
+  </section>
+  <section class="her section-pad" id="her">
+    <div class="her-heading"><h2>meri favourite<br>person.</h2><p>yes, this whole section is about you.<br>try not to let it get to your head.</p></div>
+    <div class="her-layout"><div class="her-pictures"><figure><img src="assets/p4-3.jpg" loading="lazy" width="720" height="1280" alt="Yashu smiling in a floral top at night"><figcaption class="handwriting">that smile, cutu.</figcaption></figure><figure><img src="assets/p5-5.jpg" loading="lazy" width="1119" height="1280" alt="Yashu in a pink dress holding flowers"><figcaption class="handwriting">princess behaviour.</figcaption></figure></div>
+      <div class="her-reasons"><article><h3>the way you show up.</h3><p>i love how disciplined you are. the way you do your things, the way you keep going. i admire that about you so much.</p></article><article><h3>my biggest cheerleader.</h3><p>whatever i do, you support me. having you in my corner means more to me than i probably say enough.</p></article><article><h3>everyone’s favourite.</h3><p>my family, my friends... everyone loves you as much as i do. i mean, can’t really blame them.</p></article><div class="luffy-note"><svg viewBox="0 0 180 100" aria-hidden="true"><ellipse cx="90" cy="73" rx="80" ry="18" fill="#e4b65e"/><path d="M43 66Q43 12 90 12T137 66Z" fill="#e4b65e"/><path d="M44 52Q90 66 136 52L139 67Q90 83 41 67Z" fill="#b82d48"/></svg><p class="handwriting">luffy can be king of the pirates.<br>you’re still the princess here.</p></div></div>
+    </div>
+  </section>
+  <section class="vlog section-pad" id="vlog"><div class="vlog-heading"><h2>the manaoing<br>department.</h2><p>your gussa has a full-time content creator.</p></div><div class="vlog-layout"><blockquote>“hey guys this is day 69 of me manaoing yashi as she is again gussa”<cite>— your very professional boyfriend</cite></blockquote><div class="vlog-pictures"><img src="assets/p1-5.jpg" loading="lazy" width="720" height="1280" alt="Yashu and Ansh with pink bow filters"><img src="assets/p1-6.jpg" loading="lazy" width="720" height="1280" alt="Ansh and Yashu smiling together"></div></div><p class="vlog-end handwriting">you trying to stay serious at my not so funny jokes<br>is still one of my favourite things.</p></section>
+  <section class="moving section-pad" id="memories"><div class="section-intro"><h2>us, in motion.</h2><p>because some memories need a little movement.</p></div><div class="video-grid">
+    <figure><video muted loop playsinline preload="none" controls poster="assets/poster-1.png"><source src="assets/memory-1.mov" type="video/mp4"></video><figcaption>a little celebration.</figcaption></figure>
+    <figure><video muted loop playsinline preload="none" controls poster="assets/poster-2.png"><source src="assets/memory-2.mov" type="video/mp4"></video><figcaption>cuddles department.</figcaption></figure>
+    <figure><video muted loop playsinline preload="none" controls poster="assets/poster-3.png"><source src="assets/memory-3.mov" type="video/mp4"></video><figcaption>just us being us.</figcaption></figure>
+  </div><div class="song-note"><span>our song, always.</span><a href="https://open.spotify.com/search/Whenever%20You%27re%20Ready%20Shawn%20Mendes" target="_blank" rel="noopener">whenever you are ready ↗</a><span>and yes, there’s room for your drake obsession too.</span></div></section>
+  <section class="album section-pad" id="album"><div class="album-heading"><h2>keeping all<br>of this.</h2><p>the cute ones. the blurry ones.<br>the “take one more” ones.</p></div><div class="photo-grid" id="photo-grid"></div><button id="album-toggle" type="button" aria-expanded="false" aria-controls="photo-grid">more of us</button></section>
+  <section class="still-us section-pad"><div class="still-photo"><img src="assets/p3-1.jpg" width="960" height="1280" loading="lazy" alt="Yashu and Ansh standing close and looking at each other"></div><div class="still-copy"><h2>still us.<br>still choosing you.</h2><p>these last 3 months haven’t been easy. we’ve fought a lot, and i know it’s been difficult for us.</p><p>but i feel like we’re finding our way again. things are getting better, and that means so much to me.</p><p>i love you, yashu. i want more walks with you, more ridiculous vlogs, more momo dates. more of us.</p><span class="handwriting">one little step at a time, cutu.</span></div></section>
+  <section class="letter-section section-pad" id="letter"><div class="letter-intro"><h2>one last thing,<br>cutu.</h2><p>you love handwritten letters.<br>so here’s a little piece of my heart.</p></div>
+    <div class="envelope-wrap"><button class="envelope" id="letter-open" type="button" aria-expanded="false" aria-controls="love-letter"><span class="envelope-back"></span><span class="envelope-paper handwriting">to my yashu,<br>from your ansh.</span><span class="envelope-front"></span><span class="envelope-flap"></span><span class="wax-seal" aria-hidden="true">a + y</span><span class="envelope-label">open your letter</span></button></div>
+    <article class="love-letter" id="love-letter" hidden><div class="letter-body handwriting"><h3>hey cutu,</h3><p>i hope you like this small gesture for you. i love you so much and will always love you till my last breath, also meet me soon because the weather is cold outside and i need my cuddles huhhh!</p><p>yours, always.<br>ansh <svg class="heart-icon" viewBox="0 0 32 30" aria-hidden="true"><path d="M16 27C11 22 2 16 2 9A7 7 0 0 1 16 7A7 7 0 0 1 30 9C30 16 21 22 16 27Z" fill="none" stroke="currentColor" stroke-width="2.5"/></svg></p></div><button id="ps-open" type="button" aria-expanded="false" aria-controls="date-surprise">ps. i hid something here...</button>
+    <div class="date-surprise" id="date-surprise" hidden><p class="handwriting">also , through this letter , i am asking you out on a date</p><h3>saturday.<br>28 november.</h3><p>i will tell you the location soon</p><p class="handwriting">you. me. a proper date.<br>so, what do you say, princess?</p><button id="date-yes" type="button">yes, obviously.</button><p id="date-reply" class="handwriting" aria-live="polite"></p><a id="calendar-link" href="date.ics" download hidden>keep our date <svg class="heart-icon" viewBox="0 0 32 30" aria-hidden="true"><path d="M16 27C11 22 2 16 2 9A7 7 0 0 1 16 7A7 7 0 0 1 30 9C30 16 21 22 16 27Z" fill="none" stroke="currentColor" stroke-width="2.5"/></svg></a></div></article>
+  </section>
+  <footer><p>my favourite story<br>will always be us.</p><div><span>for yashu. from ansh.</span><button id="back-top" type="button">from the beginning ↑</button><span>happy princess day <svg class="heart-icon" viewBox="0 0 32 30" aria-hidden="true"><path d="M16 27C11 22 2 16 2 9A7 7 0 0 1 16 7A7 7 0 0 1 30 9C30 16 21 22 16 27Z" fill="none" stroke="currentColor" stroke-width="2.5"/></svg></span></div></footer>
+</main>
+<dialog id="lightbox" aria-label="Our photograph"><button id="lightbox-close" type="button" aria-label="Close photograph">close ×</button><img id="lightbox-img" src="assets/p1-1.jpg" alt=""><p id="lightbox-caption" class="handwriting"></p></dialog>
+</body></html>
+
